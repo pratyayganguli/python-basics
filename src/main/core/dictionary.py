@@ -2,15 +2,22 @@
     @author Pratyay Ganguli
 '''
 
-# Understanding dictionary
+# Working with dictionaries
+
+# (key - value)
 
 car = {
-    "modelName":"fortuner",
-    "brand": "Toyota",
-    "yearOfModel": 2002,
-    "mileage": 34.45
+    'modelName': 'Fortuner',
+    'brand': 'Toyota',
+    'mileage': 10.66
 }
 
-def getCarDetails(key):
-    print(car[key])
+documents = {
+    "adhaar": "q3rqwdewewcq",
+    "voterId": "adasx",
+    "rationId": "afaceedqcedasd"
+}
 
+print(car['brand'])
+
+print(documents["adhaar"])
