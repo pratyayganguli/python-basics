@@ -1,15 +1,23 @@
-'''
-    @author Pratyay Ganguli
-'''
 
-# working with multidimensional lists
 
-imageResolutions = [
-    [200, 300],
-    [400, 233],
-    [250, 350],
-    [600, 333]
+names = [
+    "Partha",
+    "Pratyay",
+    "Alex",
+    "Ryan"
 ]
 
-def getImageResolutions():
-    print(imageResolutions)
+phoneNumbers = [
+    123,
+    233,
+    332,
+    244
+]
+
+for i in range(0, len(names)):
+    print(names[i])
+
+print('-----------')
+
+for j in range(0, len(phoneNumbers)):
+    print(phoneNumbers[j])
