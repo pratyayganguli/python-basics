@@ -17,6 +17,9 @@ account = {
     "deviceIP": "192.124.34.32"
 }
 
+
+
+
 if account['plan'] == PLAN_TYPE[0]:
     print('Please upgrade!')
 else:
