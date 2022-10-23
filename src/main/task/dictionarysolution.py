@@ -2,29 +2,20 @@
     @author Pratyay Ganguli
 '''
 
+student = []
 
-students = [
-    {
-        'branch': 'ECE',
-        'enrollmentId': 223434773,
-        'placed': True
-    },
-    {
-        'branch': 'ME',
-        'enrollmentId': 243334634,
-        'placed': False
-    },
-    {
-        'branch': 'CSE',
-        'enrollmentId': 243335152,
-        'placed': True
-    }
+studentCollection = {
+
+}
+
+studentBloodGroups = [
+    "A", "B", "B+", "O", "A", "B+"
 ]
 
-def countPlaced(students):
-    count = 0
-    for student in students:
-        if(student['placed']):
-            count = count + 1
+studentCount = 0
 
-    return count
+for i in range(0, len(studentBloodGroups)):
+    if studentBloodGroups[i] == 'B+':
+        studentCount = studentCount + 1
+
+print(studentCount)
