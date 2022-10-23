@@ -37,3 +37,30 @@ def bloodpressureL(Hg):
         return "Normal"
 print(bloodpressureH(135))
 print(bloodpressureL(80))
+
+students = [
+{
+    "branch" : "ME-B",
+    "enrollmentID" : "1501061128",
+    "placed" : True
+},
+{
+    "branch" : "ME-B",
+    "enrollment" : "1501061129",
+    "placed" : True
+},
+{
+    "branch" : "ME-B",
+    "enrollment" : "1501061130",
+    "placed" : False
+},
+
+    {
+    "branch" : "ME-B",
+    "enrollment" : "1501061131",
+    "placed" : True}
+
+]
+def countPlaced(students):
+    for i in range(0,len(students)):
+
