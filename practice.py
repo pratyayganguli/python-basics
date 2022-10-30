@@ -61,6 +61,10 @@ students = [
     "placed" : True}
 
 ]
-def countPlaced(students):
-    for i in range(0,len(students)):
+
+employees = [
+    ["Suraj", "Data Analyst", 500],
+    ["James","ML Engineer", 623.45],
+    ["Gordon", "Accountant", 534.67]
+]
 
