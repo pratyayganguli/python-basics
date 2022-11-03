@@ -17,4 +17,17 @@ data = np.array([
     [2.5, 5]
 ])
 
-print(data)
+testData = np.array([
+    ['abc3', 34],
+    ['22bs', 23],
+    ['tw3s', 21],
+    ['1def', 22],
+    ['9ac2', 24]
+])
+
+
+print(data.shape)
+# (Row, Column)
+
+print(data.dtype)
+print(testData.dtype)
